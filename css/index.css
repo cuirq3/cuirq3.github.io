@@ -1,0 +1,45 @@
+.title {
+	font-size: 20px;
+	font-weight: 900;
+}
+
+.subtitle {
+	font-weight: bold;
+	font-size: 17px;
+	float: left;
+	width: 80%;
+	align-content: flex-start;
+}
+
+.date {
+	font-size: 15px;
+	float: right;
+	width: 20%;
+	align-content: flex-end;
+}
+
+.content {
+	float: left;
+	width: 100%;
+	font-size: 17px;
+}
+
+.blocks {
+	float: left;
+	width: 100%;
+}
+
+#name {
+	font-size: 25px;
+	font-weight: 900;
+}
+
+#main {
+	width: 60%;
+	float: left;
+}
+
+#pic {
+	width: 30%;
+	float: right;
+}
