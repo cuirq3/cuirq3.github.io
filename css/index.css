@@ -18,7 +18,7 @@
 	font-weight: 500;
 	display: inline-block;
 	-webkit-text-size-adjust: none;
-	border: solid;
+	line-height: 1.5;
 }
 
 .date {
