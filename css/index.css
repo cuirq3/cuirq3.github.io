@@ -18,6 +18,7 @@
 	font-weight: 500;
 	display: inline-block;
 	-webkit-text-size-adjust: none;
+	border: solid;
 }
 
 .date {
