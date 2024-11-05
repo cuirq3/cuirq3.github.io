@@ -12,7 +12,7 @@ category: work
         <p class="td_text"></p>
         <div class="rd_ct"><p font-size:12px="" style="text-align: center;"><span style="font-size:18px;"><span style="font-family:Arial,Helvetica,sans-serif;">ACM Transactions on Graphics (Proceedings of SIGGRAPH Asia 2024)</span></span></p>
 
-<p font-size:12px="" style="text-align: center;"><span style="font-family:Arial,Helvetica,sans-serif;"><strong><span style="font-size:14px">​</span></strong></span></p>
+        <p font-size:12px="" style="text-align: center;"><span style="font-family:Arial,Helvetica,sans-serif;"><strong><span style="font-size:14px">​</span></strong></span></p>
 
 <p font-size:12px="" style="text-align: center;"><span style="font-size:14px;"><span style="font-family:Arial,Helvetica,sans-serif;">Yilin Liu<sup>1</sup>&nbsp;&nbsp;&nbsp;&nbsp;Ruiqi Cui<sup>1</sup>&nbsp;&nbsp;&nbsp;&nbsp;<a data-ke-src="https://vcc.tech/~kexie" href="https://vcc.tech/~kexie" target="_blank">Ke Xie</a><sup>1</sup>&nbsp;&nbsp;&nbsp;&nbsp;<a data-ke-src="http://socs.uoguelph.ca/~minglun/" href="http://socs.uoguelph.ca/~minglun/" target="_blank">Minglun Gong</a><sup>2</sup>&nbsp;&nbsp;&nbsp;&nbsp;<a data-ke-src="https://vcc.tech/~huihuang" href="https://vcc.tech/~huihuang" target="_blank">Hui Huang</a><sup>1*</sup></span></span></p>
 
@@ -99,3 +99,5 @@ category: work
 <p font-size:12px=""><span style="font-size:14px;"><span style="font-family:Arial,Helvetica,sans-serif;">year={2021},</span></span></p>
 
 <p font-size:12px=""><span style="font-size:14px;"><span style="font-family:Arial,Helvetica,sans-serif;">}</span></span></p>
+    </div>
+</div>
