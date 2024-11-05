@@ -33,7 +33,7 @@ category: work
 | <a href="https://github.com/cuirq3/RsR">Code</a> | <a href="https://arxiv.org/abs/2402.01893">arXiv</a> | <a href="">Presentation video(TODO, link)</a> |
 
 <img src="../../assets/img/Siga_24/teaser.png" alt="teaser.png" style="max-width: 100%; height: auto;"/><br>
-<p><b>Fig. 1.</b> Reconstruction process of a high-genus shape. Starting from the point cloud, a minimum spanning tree (MST) is built. By iteratively inserting proper edges into the MST while keeping the genus to zero, a mesh is provided with multiple cracks. Later, with the red edges connecting both sides of the cracks, the genus number of the mesh is increased. Finally, this convoluted high-genus shape is well reconstructed.</p>
+<p style="text-align: left;"><b>Fig. 1.</b> Reconstruction process of a high-genus shape. Starting from the point cloud, a minimum spanning tree (MST) is built. By iteratively inserting proper edges into the MST while keeping the genus to zero, a mesh is provided with multiple cracks. Later, with the red edges connecting both sides of the cracks, the genus number of the mesh is increased. Finally, this convoluted high-genus shape is well reconstructed.</p>
 
 </div>
 
@@ -50,7 +50,7 @@ control over the topology of the reconstructed surface._
 
 <div align="center">
 <img src="../../assets/img/Siga_24/pipeline_v2.png" alt="pipeline.png" style="max-width: 100%; height: auto;"/><br>
-<p><b>Fig. 2.</b> Pipeline overview on synthetic letter point clouds. High-genus reconstruction follows the bottom pipeline, where 𝑔 stands for the genus number. Given the prior knowledge of a genus-0 shape, the shorter pipeline depicted at the top is employed. In the pipeline shown at the bottom, the red edges in the third inset denote the newly added handles. Concurrently, the path formed by the blue edges represents the shortest path between the two end vertices before the red edge is introduced.
+<p style="text-align: left;"><b>Fig. 2.</b> Pipeline overview on synthetic letter point clouds. High-genus reconstruction follows the bottom pipeline, where 𝑔 stands for the genus number. Given the prior knowledge of a genus-0 shape, the shorter pipeline depicted at the top is employed. In the pipeline shown at the bottom, the red edges in the third inset denote the newly added handles. Concurrently, the path formed by the blue edges represents the shortest path between the two end vertices before the red edge is introduced.
 </p>
 <br>
 <br>
@@ -59,25 +59,25 @@ control over the topology of the reconstructed surface._
 <img src="../../assets/img/Siga_24/Scene_Synth1.png" alt="synth.png" style="max-width: 100%; height: auto;"/>
 <img src="../../assets/img/Siga_24/Scene_Scans.png" alt="scan.png" style="max-width: 100%; height: auto;"/><br>
 
-<p><b>Fig. 3.</b> Renderings of models reconstructed using our method. Top image: well-known models from the Stanford 3D Scanning Repository. Middle image: several test objects are shown. The terrain (shown after hole closing) consists of two very close surfaces, the tree exhibits significant variation point density, and the two remaining objects are high-genus shapes. Bottom: we used our method to reconstruct the DTU STL0024 model as well as the Stanford Armadillo and Bunny directly from the acquired points. For each model, we see unprocessed reconstructions on the left and models after hole closing and denoising on the right. In all images, back-facing surfaces are rendered in red to show holes in the reconstruction.
+<p style="text-align: left;"><b>Fig. 3.</b> Renderings of models reconstructed using our method. Top image: well-known models from the Stanford 3D Scanning Repository. Middle image: several test objects are shown. The terrain (shown after hole closing) consists of two very close surfaces, the tree exhibits significant variation point density, and the two remaining objects are high-genus shapes. Bottom: we used our method to reconstruct the DTU STL0024 model as well as the Stanford Armadillo and Bunny directly from the acquired points. For each model, we see unprocessed reconstructions on the left and models after hole closing and denoising on the right. In all images, back-facing surfaces are rendered in red to show holes in the reconstruction.
 </p>
 <br>
 <br>
 
 <img src="../../assets/img/Siga_24/synthetic_general_v2.png" alt="syn_g.png" style="max-width: 100%; height: auto;"/><br>
-<p><b>Fig. 4.</b> Visualization of the reconstruction results from six different methods on special synthetic data. A detailed image enclosed by red dashed lines indicates the best reconstruction outcome.
+<p style="text-align: left;"><b>Fig. 4.</b> Visualization of the reconstruction results from six different methods on special synthetic data. A detailed image enclosed by red dashed lines indicates the best reconstruction outcome.
 </p>
 <br>
 <br>
 
 <img src="../../assets/img/Siga_24/real_scan_general_v2.png" alt="scan_g.png" style="max-width: 100%; height: auto;"/><br>
-<p><b>Fig. 5.</b> This is the visualization of the reconstruction results by five different methods. It can be noticed that ours, ScaleSpace, Co3Ne w/ smoothing, and Screened Poisson successfully reconstruct reasonable meshes of the input point cloud. Comparing ours and ScaleSpace, our method can reconstruct a more complete mesh with a smaller number of holes while ScaleSpace is restricted by the parameter of the Ball-Pivoting algorithm.
+<p style="text-align: left;"><b>Fig. 5.</b> This is the visualization of the reconstruction results by five different methods. It can be noticed that ours, ScaleSpace, Co3Ne w/ smoothing, and Screened Poisson successfully reconstruct reasonable meshes of the input point cloud. Comparing ours and ScaleSpace, our method can reconstruct a more complete mesh with a smaller number of holes while ScaleSpace is restricted by the parameter of the Ball-Pivoting algorithm.
 </p>
 <br>
 <br>
 
 <img src="../../assets/img/Siga_24/topo_control.png" alt="topo.png" style="max-width: 100%; height: auto;"/><br>
-<p><b>Fig. 6.</b> Reconstruction comparisons using a synthetic cortical surface point cloud. Our method successfully generated a genus-0 mesh, whereas Co3Ne retained only one side of the compressed opposite points, and Scalespace formed bridges across the gap.
+<p style="text-align: left;"><b>Fig. 6.</b> Reconstruction comparisons using a synthetic cortical surface point cloud. Our method successfully generated a genus-0 mesh, whereas Co3Ne retained only one side of the compressed opposite points, and Scalespace formed bridges across the gap.
 </p>
 <br>
 <br>
