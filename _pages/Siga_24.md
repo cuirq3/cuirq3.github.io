@@ -11,6 +11,7 @@ category: work
 
 <h1>Surface Reconstruction Using Rotation Systems</h1>
 
+<br>
 <font size="4">
 <a href="https://cuirq3.github.io/" style="font-size:100%;">Ruiqi Cui<sup>1</sup></a>&emsp;
 <a href="https://orbit.dtu.dk/en/persons/emil-toftegaard-g%C3%A6de" style="font-size:100%;">Emil Toftegaard Gæde<sup>1</sup> </a>&emsp;
@@ -22,10 +23,11 @@ category: work
 
 <font size="4">
 <sup>1</sup> Department of Applied Mathematics and Computer Science, Technical University of Denmark, Denmark
-
+<br>
 <sup>2</sup> Visual Computing Institute, RWTH Aachen University, Germany
 </font>
 
+<br>
 | <a href="https://github.com/cuirq3/RsR">Code</a> | <a href="https://arxiv.org/abs/2402.01893">arXiv</a> | <a href="">Presentation video(TODO, link)</a> |
 
 <img src="./assets/img/siga_24/teaser.png" alt="teaser.png"/><img src="./assets/img/siga_24/Scene_Stanford.png" alt="stanford.png"/> <br>
