@@ -20,6 +20,7 @@ category: work
 <a href="https://people.compute.dtu.dk/janba/" style="font-size:100%;">J. Andreas Bærentzen<sup>1</sup> </a>&emsp;
 </font>
 <br>
+<br>
 
 <font size="4">
 <sup>1</sup> Department of Applied Mathematics and Computer Science, Technical University of Denmark, Denmark
@@ -27,6 +28,7 @@ category: work
 <sup>2</sup> Visual Computing Institute, RWTH Aachen University, Germany
 </font>
 
+<br>
 <br>
 | <a href="https://github.com/cuirq3/RsR">Code</a> | <a href="https://arxiv.org/abs/2402.01893">arXiv</a> | <a href="">Presentation video(TODO, link)</a> |
 
