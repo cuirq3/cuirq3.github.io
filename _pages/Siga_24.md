@@ -32,7 +32,7 @@ category: work
 <br>
 | <a href="https://github.com/cuirq3/RsR">Code</a> | <a href="https://arxiv.org/abs/2402.01893">arXiv</a> | <a href="">Presentation video(TODO, link)</a> |
 
-<img src="./assets/img/siga_24/teaser.png" alt="teaser.png"/><img src="./assets/img/siga_24/Scene_Stanford.png" alt="stanford.png"/> <br>
+<img src="../assets/img/siga_24/teaser.png" alt="teaser.png"/><img src="../assets/img/siga_24/Scene_Stanford.png" alt="stanford.png"/> <br>
 
 </div>
 
