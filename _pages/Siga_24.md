@@ -35,12 +35,14 @@ category: work
 <br>
 <br>
 
-<video width="640" height="360" controls>
-  <source src="https://youtu.be/9DEfhN3pzng" type="video/mp4">
-</video>
+<iframe width="560" height="315" 
+        src="https://www.youtube.com/embed/9DEfhN3pzng" 
+        frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" 
+        allowfullscreen>
+</iframe>
+<br>
+<br>
 
-<br>
-<br>
 
 <img src="../../assets/img/Siga_24/teaser.png" alt="teaser.png" style="max-width: 100%; height: auto;"/><br>
 <p style="text-align: left;"><b>Fig. 1.</b> Reconstruction process of a high-genus shape. Starting from the point cloud, a minimum spanning tree (MST) is built. By iteratively inserting proper edges into the MST while keeping the genus to zero, a mesh is provided with multiple cracks. Later, with the red edges connecting both sides of the cracks, the genus number of the mesh is increased. Finally, this convoluted high-genus shape is well reconstructed.</p>
