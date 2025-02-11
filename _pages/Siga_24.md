@@ -9,7 +9,8 @@ category: work
 ---
 <div align="center">
 
-<h1>Surface Reconstruction Using Rotation Systems <br> SIGGRAPH ASIA 2024, ACM Transactions on Graphics (TOG)</h1>
+<h1>Surface Reconstruction Using Rotation Systems</h1>
+<b> SIGGRAPH ASIA 2024, ACM Transactions on Graphics (TOG)</b>
 
 <br>
 <font size="4">
