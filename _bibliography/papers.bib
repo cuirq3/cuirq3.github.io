@@ -2,14 +2,18 @@
   title={Materialist: Physically based editing using single-image inverse rendering},
   author={Wang, Lezhong and Tran, Duc Minh and Cui, Ruiqi and TG, Thomson and Dahl, Anders Bjorholm and Bigdeli, Siavash Arjomand and Frisvad, Jeppe Revall and Chandraker, Manmohan},
   journal={arXiv preprint arXiv:2501.03717},
-  year={2025}
+  year={2025},
+  abstract={Achieving physically consistent image editing remains a significant challenge in computer vision. Existing image editing methods typically rely on neural networks, which struggle to accurately handle shadows and refractions. Conversely, physics-based inverse rendering often requires multi-view optimization, limiting its practicality in single-image scenarios. In this paper, we propose Materialist, a method combining a learning-based approach with physically based progressive differentiable rendering. Given an image, our method leverages neural networks to predict initial material properties. Progressive differentiable rendering is then used to optimize the environment map and refine the material properties with the goal of closely matching the rendered result to the input image. Our approach enables a range of applications, including material editing, object insertion, and relighting, while also introducing an effective method for editing material transparency without requiring full scene geometry. Furthermore, Our envmap estimation method also achieves state-of-the-art performance, further enhancing the accuracy of image editing task. Experiments demonstrate strong performance across synthetic and real-world datasets, excelling even on challenging out-of-domain images.},
+  website={https://lez-s.github.io/materialist_project/}
 }
 
 @article{wang2025relumix,
   title={ReLumix: Extending Image Relighting to Video via Video Diffusion Models},
   author={Wang, Lezhong and Jin, Shutong and Cui, Ruiqi and Dahl, Anders Bjorholm and Frisvad, Jeppe Revall and Bigdeli, Siavash},
   journal={arXiv preprint arXiv:2509.23769},
-  year={2025}
+  year={2025},
+  abstract={Controlling illumination during video post-production is a crucial yet elusive goal in computational photography. Existing methods often lack flexibility, restricting users to certain relighting models. This paper introduces ReLumix, a novel framework that decouples the relighting algorithm from temporal synthesis, thereby enabling any image relighting technique to be seamlessly applied to video. Our approach reformulates video relighting into a simple yet effective two-stage process: (1) an artist relights a single reference frame using any preferred image-based technique (e.g., Diffusion Models, physics-based renderers); and (2) a fine-tuned stable video diffusion (SVD) model seamlessly propagates this target illumination throughout the sequence. To ensure temporal coherence and prevent artifacts, we introduce a gated cross-attention mechanism for smooth feature blending and a temporal bootstrapping strategy that harnesses SVD's powerful motion priors. Although trained on synthetic data, ReLumix shows competitive generalization to real-world videos. The method demonstrates significant improvements in visual fidelity, offering a scalable and versatile solution for dynamic lighting control.},
+  website={https://lez-s.github.io/Relumix_project/}
 }
 
 @inproceedings{cui2024synthesizing,
@@ -20,6 +24,7 @@
   year={2024},
   selected={true},
   preview={deformation.png},
+  abstract={The realism of digital phantoms for the white matter microstructure is highly valued. Realistic synthesis provides reliable input to generate synthetic diffusion MRI signals for evaluating biophysical models or training machine learning models of microstructure features, such as axon diameter, shapes, and cellular structures. Inspired by the popular spring-mass systems used in physical simulation, we propose a novel and flexible method for synthesizing axon morphology and its dynamics with physical constraints. Specifically, starting with an initial axon configuration, our method constructs a spring-mass system based on specific sampling rules inspired by the real 3D axons and cell morphology observed in X-ray synchrotron imaging. By minimizing the spring potential energy, our method optimizes the positions of sampled mass points, thereby deforming the axon morphology from its physical surroundings. After the optimization, a triangle mesh of the axon surfaces is obtained and can be used as input for Monte Carlo diffusion MRI simulations. Experimental results demonstrate that our approach successfully mimics a range of axon morphologies and the dynamic environment.},
   organization={Springer}
 }
 
